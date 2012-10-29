@@ -41,7 +41,7 @@
 	list-style: none;
 }
 
-.cuestionario  .preguntas ul.respuestas li {
+.cuestionario  .preguntas ul.respuestas  li {
 	cursor: pointer;
 	padding: 5px 30px;
 	margin: 12px 0;

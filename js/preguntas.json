@@ -1,24 +1,46 @@
 {
    "preguntas": [
+   	  {
+         "pregunta": "¿Ha realizado alguna capacitación o perfeccionamiento?",
+         "respuestas": ["Nunca.","Si"],
+		 "opcion":["2"],
+		 "preguntaFormulario":["¿Donde?"],
+		 "subPregunta": [
+   	  		{
+				"pregunta": ["Duración"],
+         		"respuestas": ["1 semana.","2 semanas.", "Más"]
+			}
+		  ]
+      },
+	  {
+         "pregunta": "¿La carrera le ha ofrecido algún tipo de perfeccionamiento?",
+         "respuestas": ["Nunca.","Si"],
+		 "opcion":["2"],
+		 "preguntaFormulario":["Indique en qué área."]
+      },
       {
-         "pregunta": "¿Cuál era tu situación al egresar?",
-         "respuestas": ["Los estudios eran mi unica actividad.","Los estudios y trabajo eran mis actividades."]
+         "pregunta": "Indique el tiempo que demoró en encontrar trabajo.",
+         "respuestas": ["Antes de egresar.","1 mes.","2 a 3 meses.","3 a 6 meses.","6 meses a 1 año.", "Más de 1 año"]
       },
 	  {
-         "pregunta": "¿Cuánto tiempo le tomó encontrar trabajo al egresar?",
-         "respuestas": ["Menos de 3 meses","Entre 3 a 6 meses","Entre 6 a 9 meses","Entre a 12 meses"," Más de 12 meses"]
+         "pregunta": "Indique los años que lleva ejerciendo.",
+         "respuestas": ["Entre 0 a 1 año.","Entre 1 y 2 años.","Entre 2 a 5 años."," Más de 5 años."]
       },
 	  {
-         "pregunta": "¿Cargo que ocupa actualmente(en caso de no trabajar indique su último cargo)?",
-         "respuestas": ["Gerencial.","Mando medio.","Empleado."]
+         "pregunta": "Indique el tipo de empresa en la que trabaja.",
+         "respuestas": ["Ingeniería.","Consultora.","Pública.","Privada.","Microempresa.","Servicios.","Otra."]
       },
 	  {
-         "pregunta": "¿Adquiriste experiencia laboral relacionada con tus estudios?",
-         "respuestas": ["1","2","3","4"]
+         "pregunta": "Indique el cargo que ocupa.",
+         "respuestas": ["Gerente.","Subgerente.","Jefe de Producción.","Jefe de área.","Otro."]
       },
 	  {
-         "pregunta": "Indique el rango de su ingreso actual (en caso de no trabajar indique su último ingreso)",
-         "respuestas": ["Menor a $500.000.","$500.000  - $1.000.000.","$1.000.000 - $1.500.000.","    $1.500.000 - $2.000.000.","mayor a $2.000.000."]
+         "pregunta": "Indique su comunicación con la institución.",
+         "respuestas": ["Sin comunicación.","Sólo teléfono.","Sólo celular.","Personal."]
+      },
+	  {
+         "pregunta": "Indique sus expectativas de prosecución de estudios.",
+         "respuestas": ["Por ahora ninguna.","Curso de capacitación.","Diplomado.","Magister.","Doctorado.","Otra carrera."]
       }
      ]
 }
