@@ -1,0 +1,15 @@
+table.detail-view th
+{
+        text-align: right;
+        width: 280px;
+}
+
+table.detail-view tr.odd
+{
+        background:#E5F1F4;
+}
+
+table.detail-view tr.even
+{
+        background:#F8F8F8;
+}

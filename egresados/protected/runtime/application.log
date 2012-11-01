@@ -1,0 +1,1444 @@
+2012/11/01 00:02:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about" was not found.' in C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('about')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/egresados/index.php?r=site/page&view=about
+HTTP_REFERER=http://localhost/egresados/index.php
+---
+2012/11/01 00:03:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about" was not found.' in C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('about')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/egresados/index.php?r=site/page&view=about
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/page&view=about
+---
+2012/11/01 00:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about" was not found.' in C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('about')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/egresados/index.php?r=site/page&view=about
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/index
+---
+2012/11/01 00:05:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about" was not found.' in C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('about')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/egresados/index.php?r=site/page&view=about
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/index
+---
+2012/11/01 00:06:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about" was not found.' in C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('about')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/egresados/index.php?r=site/page&view=about
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/index
+---
+2012/11/01 00:07:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about" was not found.' in C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('about')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/egresados/index.php?r=site/page&view=about
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/page&view=about
+---
+2012/11/01 00:07:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "encuesta" was not found.' in C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('encuesta')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/egresados/index.php?r=site/page&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/page&view=about
+---
+2012/11/01 00:07:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "encuesta" was not found.' in C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('encuesta')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/egresados/index.php?r=site/page&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/page&view=about
+---
+2012/11/01 00:07:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "encuesta" was not found.' in C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('encuesta')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/egresados/index.php?r=site/page&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/index
+---
+2012/11/01 00:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "encuesta" was not found.' in C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('encuesta')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/egresados/index.php?r=site/page&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/index
+---
+2012/11/01 00:08:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "encuesta" was not found.' in C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('encuesta')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/egresados/index.php?r=site/page&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/page&view=encuesta
+---
+2012/11/01 00:09:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "encuesta" was not found.' in C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('encuesta')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/egresados/index.php?r=site/page&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/page&view=encuesta
+---
+2012/11/01 00:09:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "encuesta" was not found.' in C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('encuesta')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/egresados/index.php?r=site/page&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/page&view=encuesta
+---
+2012/11/01 00:09:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "encuesta" was not found.' in C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('encuesta')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/egresados/index.php?r=site/page&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/page&view=encuesta
+---
+2012/11/01 00:09:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "encuesta" was not found.' in C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('encuesta')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/egresados/index.php?r=site/page&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/page&view=encuesta
+---
+2012/11/01 00:09:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "encuesta" was not found.' in C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('encuesta')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/egresados/index.php?r=site/page&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/page&view=encuesta
+---
+2012/11/01 00:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "encuesta" was not found.' in C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('encuesta')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/egresados/index.php?r=site/page&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/page&view=encuesta
+---
+2012/11/01 00:10:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('pages')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('pages')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/pages/encu...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php?r=site/pages/encuesta&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/page&view=encuesta
+---
+2012/11/01 00:10:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('pages')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('pages')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/pages/encu...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php?r=site/pages/encuesta&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/pages/encuesta&view=encuesta
+---
+2012/11/01 00:11:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('pages')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('pages')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/pages/encu...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php?r=site/pages/encuesta&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/pages/encuesta&view=encuesta
+---
+2012/11/01 00:11:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('pages')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('pages')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/pages/encu...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php?r=site/pages/encuesta&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/index
+---
+2012/11/01 00:12:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('pages')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('pages')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/pages/encu...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php?r=site/pages/encuesta&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php
+---
+2012/11/01 00:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('pages')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('pages')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/pages/encu...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php?r=site/pages/encuesta&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php
+---
+2012/11/01 00:12:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('pages')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('pages')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/pages/encu...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php?r=site/pages/encuesta&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/pages/encuesta&view=encuesta
+---
+2012/11/01 00:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('pages')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('pages')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/pages/encu...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php?r=site/pages/encuesta&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/pages/encuesta&view=encuesta
+---
+2012/11/01 00:12:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('pages')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('pages')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/pages/encu...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php?r=site/pages/encuesta&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/index
+---
+2012/11/01 00:13:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('pages')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('pages')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/pages/encu...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php?r=site/pages/encuesta&view=encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/index
+---
+2012/11/01 00:13:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('pages')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('pages')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/pages/encu...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php?r=site/pages/encuesta&view=pages%2Fencuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/pages/encuesta&view=encuesta
+---
+2012/11/01 00:14:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('pages')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('pages')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/pages/encu...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php?r=site/pages/encuesta&view=pages%2Fencuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/pages/encuesta&view=pages%2Fencuesta
+---
+2012/11/01 00:15:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('pages')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('pages')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/pages/encu...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php?r=site/pages/encuesta&view=pages%2Fencuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/pages/encuesta&view=pages%2Fencuesta
+---
+2012/11/01 00:15:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('pages')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('pages')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/pages/encu...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php?r=site/pages/encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/pages/encuesta&view=pages%2Fencuesta
+---
+2012/11/01 00:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('pages')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('pages')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/pages/encu...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php?r=site/pages/encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/pages/encuesta
+---
+2012/11/01 00:16:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('pages')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('pages')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/pages/encu...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php?r=site/pages/encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/pages/encuesta
+---
+2012/11/01 00:16:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('pages')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('pages')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/pages/encu...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php?r=site/pages/encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/pages/encuesta
+---
+2012/11/01 00:17:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "pages".' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('pages')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('pages')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/pages/encu...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php?r=site/pages/encuesta
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/pages/encuesta
+---
+2012/11/01 00:51:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "js" solicitada.' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('js')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/js/pregunt...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/site/js/preguntas.json
+HTTP_REFERER=http://localhost/egresados/site/encuesta.html
+---
+2012/11/01 00:51:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "js" solicitada.' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('js')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/js/pregunt...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/site/js/preguntas.json
+HTTP_REFERER=http://localhost/egresados/site/encuesta.html
+---
+2012/11/01 00:52:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "js" solicitada.' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('js')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/js/pregunt...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/site/js/preguntas.json
+HTTP_REFERER=http://localhost/egresados/site/encuesta.html
+---
+2012/11/01 00:52:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "js" solicitada.' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('js')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/js/pregunt...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/site/js/preguntas.json
+HTTP_REFERER=http://localhost/egresados/site/encuesta.html
+---
+2012/11/01 00:52:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "js" solicitada.' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('js')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/js/pregunt...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/site/js/preguntas.json
+HTTP_REFERER=http://localhost/egresados/site/encuesta.html
+---
+2012/11/01 00:53:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "js" solicitada.' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('js')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/js/pregunt...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/site/js/preguntas.json
+HTTP_REFERER=http://localhost/egresados/site/encuesta.html
+---
+2012/11/01 00:55:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "js" solicitada.' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('js')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/js/pregunt...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/site/js/preguntas.json
+HTTP_REFERER=http://localhost/egresados/site/encuesta.html
+---
+2012/11/01 00:55:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "js" solicitada.' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('js')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/js/pregunt...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/site/js/preguntas.json
+HTTP_REFERER=http://localhost/egresados/site/encuesta.html
+---
+2012/11/01 00:56:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "js" solicitada.' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('js')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/js/pregunt...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/site/js/preguntas.json
+HTTP_REFERER=http://localhost/egresados/site/encuesta.html
+---
+2012/11/01 00:56:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "js" solicitada.' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('js')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/js/pregunt...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/site/js/preguntas.json
+HTTP_REFERER=http://localhost/egresados/site/encuesta.html
+---
+2012/11/01 00:56:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "js" solicitada.' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('js')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/js/pregunt...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/site/js/preguntas.json
+HTTP_REFERER=http://localhost/egresados/site/encuesta.html
+---
+2012/11/01 00:56:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "encuesta.html" solicitada.' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('encuesta.html')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('encuesta.html')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/encuesta.h...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/site/encuesta.html
+HTTP_REFERER=http://localhost/egresados/site/encuesta.html
+---
+2012/11/01 00:56:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "js" solicitada.' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('js')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/js/pregunt...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php/site/js/preguntas.json
+HTTP_REFERER=http://localhost/egresados/index.php/site/encuesta
+---
+2012/11/01 00:57:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "js" solicitada.' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(271): CController->missingAction('js')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('js')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('site/js/pregunt...')
+#3 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/egresados/index.php/site/js/preguntas.json
+HTTP_REFERER=http://localhost/egresados/index.php/site/encuesta
+---
+2012/11/01 02:15:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "encuesta/index"' in C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuesta/index')
+#1 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/egresados/index.php?r=encuesta/index
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/encuesta
+---
+2012/11/01 02:16:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "encuesta/index"' in C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuesta/index')
+#1 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/egresados/index.php?r=encuesta/index
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/encuesta
+---
+2012/11/01 02:16:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "encuesta/index"' in C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuesta/index')
+#1 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/egresados/index.php?r=encuesta/index
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/encuesta
+---
+2012/11/01 02:17:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "encuesta/index"' in C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuesta/index')
+#1 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/egresados/index.php?r=encuesta/index
+HTTP_REFERER=http://localhost/egresados/index.php?r=site/encuesta
+---
+2012/11/01 02:22:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'egresados.encuestas' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `Encuestas`.
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (15)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 02:22:36 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "Encuestas" definida en la clase active record "Encuestas" no se ha podido encontrar en la base de datos.' in C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Encuestas))
+#1 C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php(394): CActiveRecord::model('Encuestas')
+#2 C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(15): CActiveRecord->__construct('search')
+#4 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(50): EncuestasController->actionIndex()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('index')
+#9 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/index')
+#10 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/index
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/encuesta
+---
+2012/11/01 02:24:41 [error] [php] include(respuestas.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\egresados\yii_framework\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(15): spl_autoload_call()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(50): EncuestasController->actionIndex()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/index
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (15)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 02:27:30 [error] [php] include(respuestas.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\egresados\yii_framework\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(15): spl_autoload_call()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(50): EncuestasController->actionIndex()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/index
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (15)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 02:27:32 [error] [php] include(respuestas.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\egresados\yii_framework\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(15): spl_autoload_call()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(50): EncuestasController->actionIndex()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/index
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (15)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 02:27:40 [error] [php] include(respuestas.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\egresados\yii_framework\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(15): spl_autoload_call()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(50): EncuestasController->actionIndex()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/index
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (15)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 02:31:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'egresados.encuestas' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `Encuestas`.
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (15)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 02:31:58 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "Encuestas" definida en la clase active record "Encuestas" no se ha podido encontrar en la base de datos.' in C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Encuestas))
+#1 C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php(394): CActiveRecord::model('Encuestas')
+#2 C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(15): CActiveRecord->__construct('search')
+#4 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(50): EncuestasController->actionIndex()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('index')
+#9 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/index')
+#10 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/index
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/encuesta
+---
+2012/11/01 02:33:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'egresados.encuestas' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `Encuestas`.
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (15)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 02:33:19 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "Encuestas" definida en la clase active record "Encuestas" no se ha podido encontrar en la base de datos.' in C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Encuestas))
+#1 C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php(394): CActiveRecord::model('Encuestas')
+#2 C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(15): CActiveRecord->__construct('search')
+#4 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(50): EncuestasController->actionIndex()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('index')
+#9 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/index')
+#10 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/index
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/encuesta
+---
+2012/11/01 02:33:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'egresados.encuestas' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `Encuestas`.
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (15)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 02:33:33 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "Encuestas" definida en la clase active record "Encuestas" no se ha podido encontrar en la base de datos.' in C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Encuestas))
+#1 C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php(394): CActiveRecord::model('Encuestas')
+#2 C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#3 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(15): CActiveRecord->__construct('search')
+#4 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(50): EncuestasController->actionIndex()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('index')
+#9 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/index')
+#10 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/index
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/encuesta
+---
+2012/11/01 02:35:25 [error] [php] include(Horas.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\egresados\yii_framework\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(98): spl_autoload_call()
+#1 unknown(0): EncuestasController->actionView()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (98)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 02:37:31 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('update')
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/updat...')
+#5 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/update&id=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 02:38:36 [error] [php] include(Horas.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\egresados\yii_framework\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(98): spl_autoload_call()
+#1 unknown(0): EncuestasController->actionView()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (98)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 02:39:36 [error] [php] include(Horas.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\egresados\yii_framework\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(98): spl_autoload_call()
+#1 unknown(0): EncuestasController->actionView()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (98)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 02:40:08 [error] [php] include(Horas.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\egresados\yii_framework\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(98): spl_autoload_call()
+#1 unknown(0): EncuestasController->actionView()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (98)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 02:40:30 [error] [php] include(Horas.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\egresados\yii_framework\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(98): spl_autoload_call()
+#1 unknown(0): EncuestasController->actionView()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (98)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 02:40:53 [error] [php] include(Horas.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\egresados\yii_framework\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(98): spl_autoload_call()
+#1 unknown(0): EncuestasController->actionView()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (98)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 02:42:36 [error] [php] include(Pacientes.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\egresados\yii_framework\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(29): spl_autoload_call()
+#1 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(104): EncuestasController->loadModel()
+#2 unknown(0): EncuestasController->actionView()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#4 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#9 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (29)
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (104)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 02:43:21 [error] [php] include(Pacientes.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\egresados\yii_framework\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(29): spl_autoload_call()
+#1 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(104): EncuestasController->loadModel()
+#2 unknown(0): EncuestasController->actionView()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#4 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#9 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (29)
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (104)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 03:13:04 [error] [exception.CException] exception 'CException' with message 'Propiedad "CDetailView"."headerHtmlOptions" no se encuentra definida.' in C:\wamp\www\egresados\yii_framework\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CWidgetFactory.php(162): CComponent->__set('headerHtmlOptio...', Array)
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(EncuestasController), 'zii.widgets.CDe...', Array)
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CDe...', Array)
+#3 C:\wamp\www\egresados\protected\views\encuestas\view.php(30): CBaseController->widget('zii.widgets.CDe...', Array)
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(127): require('C:\wamp\www\egr...')
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\egr...', Array, true)
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\egr...', Array, true)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#8 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(106): CController->render('view', Array)
+#9 [internal function]: EncuestasController->actionView('16922117-0')
+#10 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#11 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#12 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#16 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#17 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 03:13:23 [error] [exception.CException] exception 'CException' with message 'Propiedad "CDetailView"."headerHtmlOptions" no se encuentra definida.' in C:\wamp\www\egresados\yii_framework\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CWidgetFactory.php(162): CComponent->__set('headerHtmlOptio...', Array)
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(EncuestasController), 'zii.widgets.CDe...', Array)
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CDe...', Array)
+#3 C:\wamp\www\egresados\protected\views\encuestas\view.php(30): CBaseController->widget('zii.widgets.CDe...', Array)
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(127): require('C:\wamp\www\egr...')
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\egr...', Array, true)
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\egr...', Array, true)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#8 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(106): CController->render('view', Array)
+#9 [internal function]: EncuestasController->actionView('16922117-0')
+#10 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#11 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#12 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#16 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#17 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 03:14:08 [error] [exception.CException] exception 'CException' with message 'Propiedad "CDetailView"."headerHtmlOptions" no se encuentra definida.' in C:\wamp\www\egresados\yii_framework\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CWidgetFactory.php(162): CComponent->__set('headerHtmlOptio...', Array)
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(EncuestasController), 'zii.widgets.CDe...', Array)
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CDe...', Array)
+#3 C:\wamp\www\egresados\protected\views\encuestas\view.php(31): CBaseController->widget('zii.widgets.CDe...', Array)
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(127): require('C:\wamp\www\egr...')
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\egr...', Array, true)
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\egr...', Array, true)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#8 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(106): CController->render('view', Array)
+#9 [internal function]: EncuestasController->actionView('16922117-0')
+#10 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#11 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#12 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#16 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#17 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 03:14:48 [error] [exception.CException] exception 'CException' with message 'Propiedad "CDetailView"."width" no se encuentra definida.' in C:\wamp\www\egresados\yii_framework\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CWidgetFactory.php(162): CComponent->__set('width', '90')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(EncuestasController), 'zii.widgets.CDe...', Array)
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CDe...', Array)
+#3 C:\wamp\www\egresados\protected\views\encuestas\view.php(31): CBaseController->widget('zii.widgets.CDe...', Array)
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(127): require('C:\wamp\www\egr...')
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\egr...', Array, true)
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\egr...', Array, true)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#8 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(106): CController->render('view', Array)
+#9 [internal function]: EncuestasController->actionView('16922117-0')
+#10 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#11 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#12 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#16 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#17 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 03:17:11 [error] [exception.CException] exception 'CException' with message 'Propiedad "CDetailView"."columns" no se encuentra definida.' in C:\wamp\www\egresados\yii_framework\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CWidgetFactory.php(162): CComponent->__set('columns', Array)
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(EncuestasController), 'zii.widgets.CDe...', Array)
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CDe...', Array)
+#3 C:\wamp\www\egresados\protected\views\encuestas\view.php(32): CBaseController->widget('zii.widgets.CDe...', Array)
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(127): require('C:\wamp\www\egr...')
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\egr...', Array, true)
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\egr...', Array, true)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#8 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(106): CController->render('view', Array)
+#9 [internal function]: EncuestasController->actionView('16922117-0')
+#10 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#11 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#12 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#16 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#17 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 03:20:59 [error] [exception.CException] exception 'CException' with message 'Propiedad "CDetailView"."columns" no se encuentra definida.' in C:\wamp\www\egresados\yii_framework\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CWidgetFactory.php(162): CComponent->__set('columns', Array)
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(EncuestasController), 'zii.widgets.CDe...', Array)
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CDe...', Array)
+#3 C:\wamp\www\egresados\protected\views\encuestas\view.php(32): CBaseController->widget('zii.widgets.CDe...', Array)
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(127): require('C:\wamp\www\egr...')
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\egr...', Array, true)
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\egr...', Array, true)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#8 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(106): CController->render('view', Array)
+#9 [internal function]: EncuestasController->actionView('16922117-0')
+#10 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#11 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#12 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#16 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#17 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 13:15:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\egresados\protected\controllers\EncuestasController.php:31
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(104): EncuestasController->loadModel('16922117-0')
+#1 [internal function]: EncuestasController->actionView('16922117-0')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 13:29:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\egresados\protected\controllers\EncuestasController.php:31
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(104): EncuestasController->loadModel('16922117-0')
+#1 [internal function]: EncuestasController->actionView('16922117-0')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 13:33:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\egresados\protected\controllers\EncuestasController.php:31
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(107): EncuestasController->loadModel('16922117-0')
+#1 [internal function]: EncuestasController->actionView('16922117-0')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 13:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\egresados\protected\controllers\EncuestasController.php:31
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(107): EncuestasController->loadModel('16922117-0')
+#1 [internal function]: EncuestasController->actionView('16922117-0')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 13:36:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\egresados\protected\controllers\EncuestasController.php:31
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(106): EncuestasController->loadModel('16922117-0')
+#1 [internal function]: EncuestasController->actionView('16922117-0')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 13:38:16 [error] [php] Undefined variable: id (C:\wamp\www\egresados\protected\controllers\EncuestasController.php:102)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (102)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 13:42:51 [error] [php] Undefined variable: id (C:\wamp\www\egresados\protected\controllers\EncuestasController.php:102)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (102)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 13:42:58 [error] [php] Undefined variable: id (C:\wamp\www\egresados\protected\controllers\EncuestasController.php:102)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (102)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 13:43:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\egresados\protected\controllers\EncuestasController.php:31
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(106): EncuestasController->loadModel('16922117-0')
+#1 [internal function]: EncuestasController->actionView('16922117-0')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 13:43:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\egresados\protected\controllers\EncuestasController.php:31
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(106): EncuestasController->loadModel('16922117-0')
+#1 [internal function]: EncuestasController->actionView('16922117-0')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 13:45:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\egresados\protected\controllers\EncuestasController.php:31
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(106): EncuestasController->loadModel('16922117-0')
+#1 [internal function]: EncuestasController->actionView('16922117-0')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 13:45:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\egresados\protected\controllers\EncuestasController.php:31
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(106): EncuestasController->loadModel('16922117-0')
+#1 [internal function]: EncuestasController->actionView('16922117-0')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 13:45:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\egresados\protected\controllers\EncuestasController.php:31
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(106): EncuestasController->loadModel('16922117-0')
+#1 [internal function]: EncuestasController->actionView('16922117-0')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 13:45:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\egresados\protected\controllers\EncuestasController.php:31
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(106): EncuestasController->loadModel('16922117-0')
+#1 [internal function]: EncuestasController->actionView('16922117-0')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 13:46:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\egresados\protected\controllers\EncuestasController.php:31
+Stack trace:
+#0 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(106): EncuestasController->loadModel('16922117-0')
+#1 [internal function]: EncuestasController->actionView('16922117-0')
+#2 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 13:57:06 [error] [exception.CException] exception 'CException' with message 'Propiedad "Alumnos"."pregunta1" no se encuentra definida.' in C:\wamp\www\egresados\yii_framework\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php(144): CComponent->__get('pregunta1')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\helpers\CHtml.php(1696): CActiveRecord->__get('pregunta1')
+#2 C:\wamp\www\egresados\yii_framework\framework\zii\widgets\CDetailView.php(210): CHtml::value(Object(Alumnos), 'pregunta1')
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(174): CDetailView->run()
+#4 C:\wamp\www\egresados\protected\views\encuestas\view.php(35): CBaseController->widget('zii.widgets.CDe...', Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(127): require('C:\wamp\www\egr...')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\egr...', Array, true)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\egr...', Array, true)
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#9 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(109): CController->render('view', Array)
+#10 [internal function]: EncuestasController->actionView('16922117-0')
+#11 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#12 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#13 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#17 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#18 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 13:57:11 [error] [exception.CException] exception 'CException' with message 'Propiedad "Alumnos"."pregunta1" no se encuentra definida.' in C:\wamp\www\egresados\yii_framework\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php(144): CComponent->__get('pregunta1')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\helpers\CHtml.php(1696): CActiveRecord->__get('pregunta1')
+#2 C:\wamp\www\egresados\yii_framework\framework\zii\widgets\CDetailView.php(210): CHtml::value(Object(Alumnos), 'pregunta1')
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(174): CDetailView->run()
+#4 C:\wamp\www\egresados\protected\views\encuestas\view.php(35): CBaseController->widget('zii.widgets.CDe...', Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(127): require('C:\wamp\www\egr...')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\egr...', Array, true)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\egr...', Array, true)
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#9 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(109): CController->render('view', Array)
+#10 [internal function]: EncuestasController->actionView('16922117-0')
+#11 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#12 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#13 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#17 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#18 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 13:57:19 [error] [php] Undefined variable: encuesta (C:\wamp\www\egresados\protected\views\encuestas\view.php:24)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(870): EncuestasController->renderFile()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(783): EncuestasController->renderPartial()
+#2 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(109): EncuestasController->render()
+#3 unknown(0): EncuestasController->actionView()
+#4 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#9 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#10 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#11 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+in C:\wamp\www\egresados\protected\views\encuestas\view.php (24)
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (109)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/01 14:02:23 [error] [exception.CException] exception 'CException' with message 'Propiedad "Alumnos"."pregunta1" no se encuentra definida.' in C:\wamp\www\egresados\yii_framework\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php(144): CComponent->__get('pregunta1')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\helpers\CHtml.php(1696): CActiveRecord->__get('pregunta1')
+#2 C:\wamp\www\egresados\yii_framework\framework\zii\widgets\CDetailView.php(210): CHtml::value(Object(Alumnos), 'pregunta1')
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(174): CDetailView->run()
+#4 C:\wamp\www\egresados\protected\views\encuestas\view.php(38): CBaseController->widget('zii.widgets.CDe...', Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(127): require('C:\wamp\www\egr...')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\egr...', Array, true)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\egr...', Array, true)
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#9 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(58): CController->render('view', Array)
+#10 [internal function]: EncuestasController->actionView('16922117-0')
+#11 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#12 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#13 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#17 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#18 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/01 14:02:33 [error] [exception.CException] exception 'CException' with message 'Propiedad "Alumnos"."pregunta1" no se encuentra definida.' in C:\wamp\www\egresados\yii_framework\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\db\ar\CActiveRecord.php(144): CComponent->__get('pregunta1')
+#1 C:\wamp\www\egresados\yii_framework\framework\web\helpers\CHtml.php(1696): CActiveRecord->__get('pregunta1')
+#2 C:\wamp\www\egresados\yii_framework\framework\zii\widgets\CDetailView.php(210): CHtml::value(Object(Alumnos), 'pregunta1')
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(174): CDetailView->run()
+#4 C:\wamp\www\egresados\protected\views\encuestas\view.php(38): CBaseController->widget('zii.widgets.CDe...', Array)
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(127): require('C:\wamp\www\egr...')
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\egr...', Array, true)
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\egr...', Array, true)
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#9 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(58): CController->render('view', Array)
+#10 [internal function]: EncuestasController->actionView('16922117-0')
+#11 C:\wamp\www\egresados\yii_framework\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(EncuestasController), Array)
+#12 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(EncuestasController), Object(ReflectionMethod), Array)
+#13 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#17 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#18 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---

@@ -1,0 +1,47 @@
+{
+   "preguntas": [
+      {
+         "pregunta": "Indique el tiempo que demoró en encontrar trabajo.",
+         "respuestas": ["Antes de egresar.","1 mes.","2 a 3 meses.","3 a 6 meses.","6 meses a 1 año.", "Más de 1 año"]
+      },
+	  {
+         "pregunta": "Indique los años que lleva ejerciendo.",
+         "respuestas": ["Entre 0 a 1 año.","Entre 1 y 2 años.","Entre 2 a 5 años."," Más de 5 años."]
+      },
+	  {
+         "pregunta": "Indique el tipo de empresa en la que trabaja.",
+         "respuestas": ["Ingeniería.","Consultora.","Pública.","Privada.","Microempresa.","Servicios.","Otra."]
+      },
+	  {
+         "pregunta": "Indique el cargo que ocupa.",
+         "respuestas": ["Gerente.","Subgerente.","Jefe de Producción.","Jefe de área.","Otro."]
+      },
+      {
+         "pregunta": "¿Ha realizado alguna capacitación o perfeccionamiento?",
+         "respuestas": ["Nunca.","Sí"],
+		 "opcion":["2"],
+		 "preguntaFormulario":["¿Donde?"],
+		 "subPregunta": [
+   	  		{
+				"pregunta": ["Duración"],
+         		"respuestas": ["1 semana.","2 semanas.", "Más"]
+			}
+		  ]
+      },
+      {
+         "pregunta": "Indique sus expectativas de prosecución de estudios.",
+         "respuestas": ["Por ahora ninguna.","Curso de capacitación.","Diplomado.","Magister.","Doctorado.","Otra carrera."]
+      },
+      {
+         "pregunta": "Indique su comunicación con la institución.",
+         "respuestas": ["Sin comunicación.","Sólo teléfono.","Sólo celular.","Personal."]
+      },
+	  {
+         "pregunta": "¿La carrera le ha ofrecido algún tipo de perfeccionamiento?",
+         "respuestas": ["Nunca.","Sí"],
+		 "opcion":["2"],
+		 "preguntaFormulario":["Indique en qué área."]
+      }
+     ]
+}
+
