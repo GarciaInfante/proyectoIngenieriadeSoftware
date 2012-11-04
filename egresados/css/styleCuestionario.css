@@ -147,7 +147,7 @@
 .form{
 	clear:left;
 	text-align:right;
-	width:275	px;
+	width:275px;
 }
 .preguntas{
 	margin: 40px auto 0 auto;
@@ -158,3 +158,8 @@
 	font-size:26px;
 }
 
+.finEncuesta p{
+	font-size:26px;
+        color: #a1a1a1;
+        margin-top: 50px;
+}

@@ -1442,3 +1442,226 @@ Stack trace:
 REQUEST_URI=/egresados/index.php?r=encuestas/view&rut=16922117-0
 HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
 ---
+2012/11/03 14:58:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "encuesta/create"' in C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuesta/create')
+#1 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/egresados/index.php?r=encuesta/create
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/encuesta
+---
+2012/11/03 16:09:05 [error] [php] Trying to get property of non-object (C:\wamp\www\egresados\protected\views\encuestas\insert.php:6)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(870): EncuestasController->renderFile()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(783): EncuestasController->renderPartial()
+#2 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(75): EncuestasController->render()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(50): EncuestasController->actionInsert()
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/insert
+in C:\wamp\www\egresados\protected\views\encuestas\insert.php (6)
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (75)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/03 16:09:20 [error] [php] Trying to get property of non-object (C:\wamp\www\egresados\protected\views\encuestas\insert.php:6)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(870): EncuestasController->renderFile()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(783): EncuestasController->renderPartial()
+#2 C:\wamp\www\egresados\protected\controllers\EncuestasController.php(75): EncuestasController->render()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\actions\CInlineAction.php(50): EncuestasController->actionInsert()
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#6 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#7 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#8 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/insert
+in C:\wamp\www\egresados\protected\views\encuestas\insert.php (6)
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (75)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/03 16:35:25 [error] [php] Use of undefined constant resultadoEncuesta - assumed 'resultadoEncuesta' (C:\wamp\www\egresados\protected\controllers\EncuestasController.php:68)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/insert
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (68)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/03 16:40:11 [error] [php] Undefined offset: 0 (C:\wamp\www\egresados\protected\controllers\EncuestasController.php:67)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/insert
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (67)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/03 16:40:22 [error] [php] Undefined index: Array (C:\wamp\www\egresados\protected\controllers\EncuestasController.php:67)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/insert
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (67)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/03 16:40:41 [error] [php] Undefined index: Array (C:\wamp\www\egresados\protected\controllers\EncuestasController.php:67)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/insert
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (67)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/03 16:54:37 [error] [php] Undefined index: numero (C:\wamp\www\egresados\protected\controllers\EncuestasController.php:83)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/insert
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (83)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/03 16:55:35 [error] [php] Undefined index: numero (C:\wamp\www\egresados\protected\controllers\EncuestasController.php:83)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/insert
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (83)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/03 16:57:26 [error] [php] Undefined index: numero (C:\wamp\www\egresados\protected\controllers\EncuestasController.php:84)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/insert
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (84)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/03 16:58:17 [error] [php] Undefined index: numero (C:\wamp\www\egresados\protected\controllers\EncuestasController.php:84)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/insert
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (84)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/03 16:59:14 [error] [php] Undefined index: numero (C:\wamp\www\egresados\protected\controllers\EncuestasController.php:84)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/insert
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (84)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/03 17:02:18 [error] [php] Undefined offset: 0 (C:\wamp\www\egresados\protected\controllers\EncuestasController.php:86)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/insert
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (86)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/03 17:02:32 [error] [php] Undefined index: palabra (C:\wamp\www\egresados\protected\controllers\EncuestasController.php:86)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/insert
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (86)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/03 17:02:57 [error] [php] Undefined index: 123 (C:\wamp\www\egresados\protected\controllers\EncuestasController.php:86)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/insert
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (86)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/03 17:03:13 [error] [php] Undefined index: palabra (C:\wamp\www\egresados\protected\controllers\EncuestasController.php:86)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/insert
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (86)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/03 21:29:05 [error] [php] Undefined index: nombre (C:\wamp\www\egresados\protected\controllers\EncuestasController.php:107)
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): EncuestasController->runAction()
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): EncuestasController->runActionWithFilters()
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): EncuestasController->run()
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\egresados\index.php(13): CWebApplication->run()
+REQUEST_URI=/egresados/index.php?r=encuestas/insert
+in C:\wamp\www\egresados\protected\controllers\EncuestasController.php (107)
+in C:\wamp\www\egresados\index.php (13)
+2012/11/03 21:43:08 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#5 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&id=9
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---
+2012/11/03 21:43:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\egresados\yii_framework\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\egresados\yii_framework\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(276): CController->run('view')
+#4 C:\wamp\www\egresados\yii_framework\framework\web\CWebApplication.php(135): CWebApplication->runController('encuestas/view')
+#5 C:\wamp\www\egresados\yii_framework\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\egresados\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/egresados/index.php?r=encuestas/view&id=15
+HTTP_REFERER=http://localhost/egresados/index.php?r=encuestas/index
+---

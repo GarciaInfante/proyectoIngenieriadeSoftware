@@ -62,4 +62,41 @@ class EncuestasController extends Controller
     {
 		$this->render('encuesta');
     }
+    /*public function actionInsert()
+    {
+       echo $_POST['Array'];
+       if(isset($_POST['pregunta1'])){
+            $this->polygon=$_POST['pregunta1'];
+            $this->render("test", array('polygon'=>$this->polygon));
+       }
+       else{
+           echo "error";
+       }
+    }*/
+    public function actionInsert()
+    {
+        /*$post_text = trim(file_get_contents('php://input'));
+        $objeto = CJSON::decode($post_text);*/
+
+        // si quieres enviar texto puro:
+        if(Yii::app()->request->isPostRequest)
+        {
+          if(Yii::app()->request->isPostRequest)
+        {
+            $con = mysql_connect("localhost","root","");
+            if (!$con){
+                die('Could not connect: ' . mysql_error());
+            }
+            mysql_select_db("egresados", $con);
+            $sql ="INSERT INTO `respuestas`(`rut`, `pregunta1`, `pregunta2`, `pregunta3`, `pregunta4`, `pregunta5`, `pregunta6`, `pregunta7`, `pregunta8`) 
+                   VALUES ('16922117-0','aa','bb','Privada.','Subgerente.','Sí','Diplomado.','Personal.','Nunca.')";
+
+            if (!mysql_query($sql,$con)){
+                die('Error: ' . mysql_error());
+            }
+            mysql_close($con); 
+        }  
+        }
+
+    }
 }
