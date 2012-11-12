@@ -26,7 +26,6 @@ $this->widget('zii.widgets.grid.CGridView', array(
             'headerHtmlOptions'=>array('style'=>'width:80px!important'),
             'template'=>'{view}',
         ),
-
     ),
 ));
 ?>

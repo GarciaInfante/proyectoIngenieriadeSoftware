@@ -1,0 +1,1 @@
+SELECT pregunta1, COUNT( pregunta1 ) AS Cantidad FROM respuestas GROUP BY pregunta1

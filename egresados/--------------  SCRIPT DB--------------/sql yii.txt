@@ -1,0 +1,11 @@
+$sql = "SELECT pregunta1, COUNT( pregunta1 ) AS Cantidad FROM respuestas GROUP BY pregunta1";
+$connection=Yii::app()->db;
+$command=$connection->createCommand($sql);
+
+$respuestasCantidad = array();
+$i =0;
+$dataReader=$command->queryAll();
+foreach($dataReader as $row) {
+    //echo $row['Cantidad'];
+    $respuestasCantidad[$i++] = $row['Cantidad'];
+}

@@ -33,15 +33,9 @@ ADD CONSTRAINT FK_respuestas
 FOREIGN KEY (rut) REFERENCES alumnos(rut)  
 ON UPDATE CASCADE  
 ON DELETE CASCADE;  
---------------------------------------------------------------------
 
 
-INSERT INTO `alumnos`(`rut`, `carrera`, `egresado`, `titulado`, `telefono`, `movil`, `correo`) VALUES ('16922117-0','2141','2008','2009','27895476','85961763','asdasd@gmail.com')
 
---------------------------------------------------------------------
-
-
-INSERT INTO `respuestas`(`rut`, `pregunta1`, `pregunta2`, `pregunta3`, `pregunta4`, `pregunta5`, `pregunta6`, `pregunta7`, `pregunta8`) VALUES ('16922117-0','1 mes.','Entre 1 y 2 años.','Privada.','Subgerente.','Sí','Diplomado.','Personal.','Nunca.')
 
 
 

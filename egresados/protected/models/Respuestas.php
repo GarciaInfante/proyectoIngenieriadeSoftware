@@ -42,4 +42,18 @@ class Respuestas extends CActiveRecord{
                 'criteria'=>$criteria,
         ));
     }
+    
+    /*public function pregunta1()
+    {
+        $connection=Yii::app()->db; 
+        $sql = "SELECT pregunta1, COUNT( pregunta1 ) AS Cantidad FROM respuestas GROUP BY pregunta1";
+        $command=$connection->createCommand($sql);
+        $dataReader=$command->query();
+        $rows=$dataReader->readAll();
+        
+        return $rows;
+    }*/
+    
+    
+    
 }

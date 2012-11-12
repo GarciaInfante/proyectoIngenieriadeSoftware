@@ -89,7 +89,7 @@ class EncuestasController extends Controller
             }
             mysql_select_db("egresados", $con);
             $sql ="INSERT INTO `respuestas`(`rut`, `pregunta1`, `pregunta2`, `pregunta3`, `pregunta4`, `pregunta5`, `pregunta6`, `pregunta7`, `pregunta8`) 
-                   VALUES ('16922117-0','aa','bb','Privada.','Subgerente.','Sí','Diplomado.','Personal.','Nunca.')";
+                   VALUES ('16922117-0',{$_POST['pregunta1']},{$_POST['pregunta2']},{$_POST['pregunta3']},'{$_POST['pregunta4']}',{$_POST['pregunta5']},{$_POST['pregunta6']},{$_POST['pregunta7']},{$_POST['pregunta8']})";
 
             if (!mysql_query($sql,$con)){
                 die('Error: ' . mysql_error());

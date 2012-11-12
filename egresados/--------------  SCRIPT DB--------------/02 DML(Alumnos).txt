@@ -1,0 +1,25 @@
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('16922117-0','2141','2008','2009','27895476','1234567','asdasd@gmail.com');
+
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('17189014-k','2141','2008','2011','28245275','9316006','correo1@gmail.com');
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('18589014-7','2145','2000','2005','34171199','4567889','correo2@gmail.com');
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('16389014-4','2045','2004','2034','78221275','9316006','correo3@gmail.com');
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('15489014-k','2145','2002','2005','34171199','4567889','correo4@gmail.com');
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('14589014-4','2130','2008','2011','28245275','9316006','correo5@gmail.com');
+
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('13689014-k','2145','2000','2005','34171199','4567889','correo6@gmail.com');
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('12789014-6','2140','2008','2011','28245275','9316006','correo7@gmail.com');
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('11889014-k','2130','2002','2005','34171199','4567889','correo8@gmail.com');
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('19989014-9','2141','2008','2011','28245275','9316006','correo9@gmail.com');
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('16189014-k','2140','2002','2005','34171199','4567889','correo10@gmail.com');
+
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('14135014-1','2145','2008','2014','28243456','9316006','correo11@gmail.com');
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('15584014-7','2145','2000','2020','34171199','4567889','correo12@gmail.com');
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('16385014-4','2045','2004','2025','48221275','9316006','correo13@gmail.com');
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('12487014-k','2145','2002','2012','54171199','4567889','correo14@gmail.com');
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('11588014-4','2130','2008','2012','78245275','9316006','correo15@gmail.com');
+
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('17689014-k','2144','2000','2005','84171199','4567889','correo16@gmail.com');
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('19780014-6','2140','2008','2012','98245275','9316006','correo17@gmail.com');
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('16888014-k','2130','2002','2056','94171199','4567889','correo18@gmail.com');
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('15987014-9','2141','2008','2023','58245275','9316006','correo19@gmail.com');
+INSERT INTO alumnos(rut, carrera, egresado, titulado, telefono, movil, correo) VALUES ('13189014-k','2144','2002','2005','31417199','4567889','correo20@gmail.com');

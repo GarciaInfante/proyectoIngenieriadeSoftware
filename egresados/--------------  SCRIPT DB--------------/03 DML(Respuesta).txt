@@ -1,0 +1,25 @@
+﻿INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('16922117-0','1','1','1','1','1','1','1','1');
+
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('17189014-k','2','2','2','2','2','2','2','2');
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('18589014-7','3','3','3','3','1','3','3','1');
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('16389014-4','4','4','4','4','2','4','4','2');
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('15489014-k','5','1','5','5','1','5','1','1');
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('14589014-4','6','2','6','1','2','6','2','2');
+
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('13689014-k','1','3','7','2','1','1','3','1');
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('12789014-6','2','4','1','3','2','2','4','2');
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('11889014-k','3','1','2','4','1','3','1','1');
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('19989014-9','4','2','3','5','2','4','2','2');
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('16189014-k','5','3','4','1','1','5','3','1');
+
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('14135014-1','6','4','5','2','2','6','4','1');
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('15584014-7','1','1','6','3','1','1','1','2');
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('16385014-4','2','2','7','4','2','2','2','1');
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('12487014-k','3','3','1','5','1','3','3','2');
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('11588014-4','4','4','2','1','2','4','4','1');
+
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('17689014-k','5','1','3','2','1','5','1','1');
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('19780014-6','6','2','4','3','2','6','2','2');
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('16888014-k','1','3','5','4','1','1','3','1');
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('15987014-9','2','4','6','5','2','2','4','2');
+INSERT INTO respuestas(rut,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8) VALUES ('13189014-k','3','1','7','1','1','3','1','1');

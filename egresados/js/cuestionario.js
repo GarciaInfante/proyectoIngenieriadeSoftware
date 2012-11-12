@@ -1,7 +1,7 @@
 var preguntas = [];
 var respuestas = [];
 var pregunta = 1;
-	
+var respClass = 1;	
 $(document).on("ready", function(){
     $.getJSON('js/preguntas.json', function(data){
         
@@ -13,8 +13,9 @@ $(document).on("ready", function(){
             preguntas.push('<ul class="respuestas">');
 
             // guarda las respuestas en el array preguntas
+            respClass = 1
             $.each(value['respuestas'], function(key, value) {	
-                preguntas.push('<li>' + value +'</li>');
+                preguntas.push('<li id="'+ respClass++ +'">' + value +'</li>');
             });		
             preguntas.push('</ul>');
 				
@@ -66,14 +67,16 @@ $(document).on("ready", function(){
         $('.finalizar').on("click",function(){
             var resultadoEncuesta =[]
             $('li.selected').each(function(key, value) {
-                resultadoEncuesta.push($(this).text())    
+                $(this).attr("disabled","disabled");
+                //resultadoEncuesta.push($(this).text())
+                resultadoEncuesta.push($(this).attr('id'))   
             });
 
             //envia las respuestas para ser procesadas y guardadas en la db
             $.post('index.php?r=encuestas/insert',
-                {Pregunta1:resultadoEncuesta[0], Pregunta2:resultadoEncuesta[1]
-                //,Pregunta3:resultadoEncuesta[2],Pregunta4:resultadoEncuesta[3],Pregunta5:resultadoEncuesta[4],
-                //,Pregunta6:resultadoEncuesta[5],Pregunta7:resultadoEncuesta[6],Pregunta8:resultadoEncuesta[7],
+                {pregunta1:resultadoEncuesta[0],pregunta2:resultadoEncuesta[1],
+                 pregunta3:resultadoEncuesta[2],pregunta4:resultadoEncuesta[3],pregunta5:resultadoEncuesta[4],
+                 pregunta6:resultadoEncuesta[5],pregunta7:resultadoEncuesta[6],pregunta8:resultadoEncuesta[7]
             })
             
             // mensaje de despedida y redireccionamiento.
